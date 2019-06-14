@@ -1,0 +1,21 @@
+# ===================================================================
+# Spring Boot configuration.
+#
+# This configuration will be overridden by the Spring profile you use,
+# for example application-dev.yml if you use the "dev" profile.
+# ===================================================================
+
+spring:
+  application:
+    name: LogGenApp
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+
+management:
+  endpoints:
+    web:
+      base-path: /management
+      exposure:
+        include: ["configprops", "env", "health", "info", "threaddump"]

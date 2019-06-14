@@ -1,13 +1,13 @@
-package com.softcomint.propml;
+package com.softcomint.loggen;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PropmlLoggingToolApplication {
+public class LogGenApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PropmlLoggingToolApplication.class, args);
+        SpringApplication.run(LogGenApplication.class, args);
     }
 
 }

@@ -1,10 +1,10 @@
-package com.softcomint.propml;
+package com.softcomint.loggen;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PropmlLoggingToolApplicationTests {
+class LogGenApplicationTests {
 
     @Test
     void contextLoads() {

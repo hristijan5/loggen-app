@@ -1,0 +1,10 @@
+{
+  "properties": [
+    {
+      "name": "application.elasticsearch.path",
+      "type": "java.lang.String",
+      "sourceType": "com.softcomint.loggen.config.properties.ApplicationProperties",
+      "description": "The host and port of the elasticsearch. It can be comma separated values. I.e: 'localhost:9200', 'localhost_2:9200'."
+    }
+  ]
+}
